@@ -53,7 +53,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 
 - Easy styling customization with [Tailwind 3.0](https://tailwindcss.com/blog/tailwindcss-v3) and primary color attribute
 - Self-hosted font with [Fontsource](https://fontsource.org/)
-- Supports [plausible](https://plausible.io/), [simple analytics](https://simpleanalytics.com/) and google analytics
+- Google analytics
 - [MDX - write JSX in markdown documents!](https://mdxjs.com/)
 - Server-side syntax highlighting with line numbers and line highlighting via [rehype-prism-plus](https://github.com/timlrx/rehype-prism-plus)
 - Math display supported via [KaTeX](https://katex.org/)
@@ -81,8 +81,7 @@ I wanted it to be nearly as feature-rich as popular blogging templates like [bea
 ## Quick Start Guide
 
 2. Personalize `siteMetadata.js` (site related information)
-3. Modify the content security policy in `next.config.js` if you want to use
-   any analytics provider or a commenting solution other than giscus.
+3. Modify the content security policy in `next.config.js`
 4. Personalize `authors/default.md` (main author)
 5. Modify `projectsData.js`
 6. Modify `headerNavLinks.js` to customize navigation links
@@ -200,7 +199,3 @@ The API routes used in the newsletter component cannot be used in a static site 
 ## Support
 
 Using the template? Support this effort by giving a star on GitHub, sharing your own blog and giving a shoutout on Twitter or becoming a project [sponsor](https://github.com/sponsors/timlrx).
-
-## Licence
-
-[MIT](https://github.com/timlrx/tailwind-nextjs-starter-blog/blob/master/LICENSE) © [Timothy Lin](https://www.timrlx.com)
