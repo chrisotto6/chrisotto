@@ -19,6 +19,7 @@
 - [ ] SocialBanner
 - [ ] TOC Component to applicable posts `<TOCInline toc={props.toc} asDisclosure toHeading={3} />`
 - [x] Remove Theme reference in footer
+- [ ] Fix formatting of footer on mobile
 
 ## Setup
 
