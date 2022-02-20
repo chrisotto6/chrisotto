@@ -4,15 +4,15 @@
 
 - [x] Gut comments components and implementations
 - [x] Other analytics components and implementation
-- [ ] Fix the date bug for short date
+- [x] Fix the date bug for short date
 - [ ] Check the content security policy in `next.config.js`
 - [ ] Check `headerNavLinks.js` to customize navigation links
-- [ ] Remove Discuss on Twitter at the end of posts
+- [x] Remove Discuss on Twitter at the end of posts
 - [x] Fix URL for View on Github at the end of posts
-- [ ] Move the date below the post heading in the post view
-- [ ] Update README
-- [ ] Github Actions - Build, Lint, Test
-- [ ] Siteurl - siteMetaData
+- [x] Move the date below the post heading in the post view
+- [x] Update README
+- [x] Github Actions - Build, Lint, Test
+- [x] Siteurl - siteMetaData
 - [ ] Bio for `authors/default.md`
 - [ ] Logo
 - [ ] Favicons
@@ -34,11 +34,19 @@
 - [x] Images
 
 ## Add
+
 Most of these will probably get created into issues after the initial migration
 
-- [ ] A whole bunch of testsssssss - unit jest snapshot
+- [ ] A whole bunch of testsssssss - unit/jest snapshot
 - [ ] Uses - Add page to nav bar
-- [ ] Crypress?
+- [ ] Folders for posts/post images based on year??
+- [ ] Redo the way posts show up on landing/all posts page (card)
+- [ ] Personalize the background (dark/light mode)
+- [ ] Personalize home
+  - [ ] Intro/Image
+  - [ ] Move up email form?
+  - [ ]
+- [ ] Crypress? Playwright?
 - [ ] About page resume
 - [ ] Contact form?
 - [ ] Switch to FA-Icons for social icons?

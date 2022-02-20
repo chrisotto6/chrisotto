@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
   env: {
+    jest: true,
     browser: true,
     amd: true,
     node: true,
@@ -8,6 +9,7 @@ module.exports = {
   },
   extends: ['eslint:recommended', 'plugin:prettier/recommended', 'next', 'next/core-web-vitals'],
   rules: {
+    'no-import-assign': 0,
     'prettier/prettier': 'error',
     'react/react-in-jsx-scope': 'off',
     'react/prop-types': 0,

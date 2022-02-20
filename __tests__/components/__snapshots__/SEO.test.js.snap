@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BlogSEO unchanged 1`] = `<div />`;
+
+exports[`renders BlogSEO without authorDetails and empty images array unchanged 1`] = `<div />`;
+
+exports[`renders BlogSEO without authorDetails and empty images array unchanged 2`] = `<div />`;
+
+exports[`renders CommonSEO unchanged 1`] = `<div />`;
+
+exports[`renders CommonSEO with ogImage Array unchanged 1`] = `<div />`;
+
+exports[`renders PageSEO unchanged 1`] = `<div />`;
+
+exports[`renders TagSEO unchanged 1`] = `<div />`;
