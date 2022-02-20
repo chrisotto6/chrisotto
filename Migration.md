@@ -10,8 +10,8 @@
 - [x] Remove Discuss on Twitter at the end of posts
 - [x] Fix URL for View on Github at the end of posts
 - [x] Move the date below the post heading in the post view
-- [ ] Update README
-- [ ] Github Actions - Build, Lint, Test
+- [x] Update README
+- [x] Github Actions - Build, Lint, Test
 - [x] Siteurl - siteMetaData
 - [ ] Bio for `authors/default.md`
 - [ ] Logo
@@ -37,7 +37,7 @@
 
 Most of these will probably get created into issues after the initial migration
 
-- [ ] A whole bunch of testsssssss - unit jest snapshot
+- [ ] A whole bunch of testsssssss - unit/jest snapshot
 - [ ] Uses - Add page to nav bar
 - [ ] Folders for posts/post images based on year??
 - [ ] Redo the way posts show up on landing/all posts page (card)
@@ -46,7 +46,7 @@ Most of these will probably get created into issues after the initial migration
   - [ ] Intro/Image
   - [ ] Move up email form?
   - [ ]
-- [ ] Crypress?
+- [ ] Crypress? Playwright?
 - [ ] About page resume
 - [ ] Contact form?
 - [ ] Switch to FA-Icons for social icons?
