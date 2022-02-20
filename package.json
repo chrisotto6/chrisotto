@@ -9,7 +9,9 @@
     "serve": "next start",
     "analyze": "cross-env ANALYZE=true next build",
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "test": "jest --watch",
+    "coverage": "jest --coverage"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",
@@ -46,6 +48,8 @@
   "devDependencies": {
     "@next/bundle-analyzer": "12.0.9",
     "@svgr/webpack": "^6.1.2",
+    "@testing-library/jest-dom": "^5.16.2",
+    "@testing-library/react": "^12.1.3",
     "cross-env": "^7.0.3",
     "dedent": "^0.7.0",
     "eslint": "^7.29.0",
@@ -56,6 +60,8 @@
     "globby": "11.0.3",
     "husky": "^6.0.0",
     "inquirer": "^8.1.1",
+    "jest": "^27.5.1",
+    "jest-fetch-mock": "^3.0.3",
     "lint-staged": "^11.0.0",
     "next-remote-watch": "^1.0.0",
     "prettier": "^2.5.1",

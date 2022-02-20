@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders TOCInline unchanged 1`] = `
+<div>
+  <ul />
+</div>
+`;
+
+exports[`renders TOCInline with asDisclosure 1`] = `
+<div>
+  <details
+    open=""
+  >
+    <summary
+      class="ml-6 pt-2 pb-2 text-xl font-bold"
+    >
+      Table of Contents
+    </summary>
+    <div
+      class="ml-6"
+    >
+      <ul>
+        <li
+          class="false"
+        >
+          <a
+            href="#overview"
+          >
+            Overview
+          </a>
+        </li>
+      </ul>
+    </div>
+  </details>
+</div>
+`;
+
+exports[`renders TOCInline with exclude array unchanged 1`] = `
+<div>
+  <ul>
+    <li
+      class="false"
+    >
+      <a
+        href="#overview"
+      >
+        Overview
+      </a>
+    </li>
+    <li
+      class="false"
+    >
+      <a
+        href="#theme-colors"
+      >
+        Theme colors
+      </a>
+    </li>
+  </ul>
+</div>
+`;

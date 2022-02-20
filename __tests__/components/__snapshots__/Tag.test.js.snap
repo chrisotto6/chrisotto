@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Tag unchanged 1`] = `
+<div>
+  <a
+    class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+    href="/tags/test"
+  >
+    test
+  </a>
+</div>
+`;

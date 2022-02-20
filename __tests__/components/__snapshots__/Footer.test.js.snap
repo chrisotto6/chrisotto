@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders Footer unchanged 1`] = `
+<div>
+  <footer>
+    <div
+      class="mt-16 flex flex-col items-center"
+    >
+      <div
+        class="mb-3 flex space-x-4"
+      >
+        <a
+          class="text-sm text-gray-500 transition hover:text-gray-600"
+          href="mailto:chris@chrisotto.dev"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            class="sr-only"
+          >
+            mail
+          </span>
+          <test-file-stub
+            classname="fill-current text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 h-6 w-6"
+          />
+        </a>
+        <a
+          class="text-sm text-gray-500 transition hover:text-gray-600"
+          href="https://github.com/chrisotto6"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            class="sr-only"
+          >
+            github
+          </span>
+          <test-file-stub
+            classname="fill-current text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 h-6 w-6"
+          />
+        </a>
+        <a
+          class="text-sm text-gray-500 transition hover:text-gray-600"
+          href="https://www.linkedin.com/in/ottochristopher/"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            class="sr-only"
+          >
+            linkedin
+          </span>
+          <test-file-stub
+            classname="fill-current text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 h-6 w-6"
+          />
+        </a>
+        <a
+          class="text-sm text-gray-500 transition hover:text-gray-600"
+          href="https://twitter.com/chris_otto6"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          <span
+            class="sr-only"
+          >
+            twitter
+          </span>
+          <test-file-stub
+            classname="fill-current text-gray-700 hover:text-blue-500 dark:text-gray-200 dark:hover:text-blue-400 h-6 w-6"
+          />
+        </a>
+      </div>
+      <div
+        class="mb-5 flex space-x-2 text-sm text-gray-500 dark:text-gray-400"
+      >
+        <div>
+          Chris Otto
+        </div>
+        <div>
+           • 
+        </div>
+        <div>
+          © 2022
+        </div>
+        <div>
+           • 
+        </div>
+        <a
+          href="/"
+        >
+          Chris Otto | Father, Developer, Test Engineer
+        </a>
+      </div>
+    </div>
+  </footer>
+</div>
+`;

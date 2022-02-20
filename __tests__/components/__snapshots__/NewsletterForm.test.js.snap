@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders BlogNewsletterForm unchanged 1`] = `
+<div>
+  <div
+    class="flex items-center justify-center"
+  >
+    <div
+      class="bg-gray-100 p-6 dark:bg-gray-800 sm:px-14 sm:py-8"
+    >
+      <div>
+        <div
+          class="pb-1 text-lg font-semibold text-gray-800 dark:text-gray-100"
+        >
+          test
+        </div>
+        <form
+          class="flex flex-col sm:flex-row"
+          data-testid="email-form"
+        >
+          <div>
+            <label
+              class="sr-only"
+              for="email-input"
+            >
+              Email address
+            </label>
+            <input
+              autocomplete="email"
+              class="w-72 rounded-md px-4 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-black"
+              id="email-input"
+              name="email"
+              placeholder="Enter your email"
+              required=""
+              type="email"
+            />
+          </div>
+          <div
+            class="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3"
+          >
+            <button
+              class="w-full rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0 hover:bg-primary-700 dark:hover:bg-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black"
+              type="submit"
+            >
+              Sign up
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders NewsletterForm unchanged 1`] = `
+<div>
+  <div>
+    <div
+      class="pb-1 text-lg font-semibold text-gray-800 dark:text-gray-100"
+    >
+      test
+    </div>
+    <form
+      class="flex flex-col sm:flex-row"
+      data-testid="email-form"
+    >
+      <div>
+        <label
+          class="sr-only"
+          for="email-input"
+        >
+          Email address
+        </label>
+        <input
+          autocomplete="email"
+          class="w-72 rounded-md px-4 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:bg-black"
+          id="email-input"
+          name="email"
+          placeholder="Enter your email"
+          required=""
+          type="email"
+        />
+      </div>
+      <div
+        class="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3"
+      >
+        <button
+          class="w-full rounded-md bg-primary-500 py-2 px-4 font-medium text-white sm:py-0 hover:bg-primary-700 dark:hover:bg-primary-400 focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black"
+          type="submit"
+        >
+          Sign up
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+`;
