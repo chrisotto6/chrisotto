@@ -1,6 +1,6 @@
 import { render } from '@testing-library/react'
 import { CommonSEO, PageSEO, BlogSEO, TagSEO } from '@/components/SEO'
-import { nextRouter } from 'next/router'
+import * as nextRouter from 'next/router'
 
 nextRouter.useRouter = jest.fn()
 nextRouter.useRouter.mockImplementation(() => ({ route: '/' }))
