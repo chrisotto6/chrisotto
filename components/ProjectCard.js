@@ -1,9 +1,12 @@
 import Image from './Image'
 import SocialIcon from '@/components/social-icons'
 
-const ProjectCard = ({ title, description, img, githubUrl, projectUrl, tech }) => (
-  <div className="max-w-sm overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50">
-    <Image class="w-full" alt={title} src={img} width={544} height={306} />
+const ProjectCard = ({ title, description, img, githubUrl, projectUrl, tech, dataTestid }) => (
+  <div
+    className="max-w-sm overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50"
+    data-testid={dataTestid}
+  >
+    <Image className="w-full" alt={title} src={img} width={544} height={306} />
     <div className="px-6 py-4">
       <div className="mb-2 text-xl font-bold">{title}</div>
       <p className="text-base text-gray-500 dark:text-gray-100">{description}</p>

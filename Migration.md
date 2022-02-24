@@ -45,8 +45,10 @@ Most of these will probably get created into issues after the initial migration
 - [ ] Personalize home
   - [ ] Intro/Image
   - [ ] Move up email form?
-  - [ ]
+  - [ ] Theme colors
+  - [ ] Background colors
 - [ ] Crypress? Playwright?
+- [ ] Snippets page?
 - [ ] About page resume
 - [ ] Contact form?
 - [ ] Switch to FA-Icons for social icons?
