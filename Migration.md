@@ -5,7 +5,6 @@
 - [x] Gut comments components and implementations
 - [x] Other analytics components and implementation
 - [x] Fix the date bug for short date
-- [ ] Check the content security policy in `next.config.js`
 - [ ] Check `headerNavLinks.js` to customize navigation links
 - [x] Remove Discuss on Twitter at the end of posts
 - [x] Fix URL for View on Github at the end of posts
@@ -51,6 +50,6 @@ Most of these will probably get created into issues after the initial migration
 - [ ] Snippets page?
 - [ ] About page resume
 - [ ] Contact form?
-- [ ] Switch to FA-Icons for social icons?
 - [ ] APIs?!?
 - [ ] Share buttons in the post footer?
+- [ ] Componentize blog post items
