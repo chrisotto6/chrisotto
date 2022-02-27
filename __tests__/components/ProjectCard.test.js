@@ -1,9 +1,9 @@
 import { render } from '@testing-library/react'
-import Card from '@/components/ProjectCard'
+import ProjectCard from '@/components/ProjectCard'
 
 it('renders card with url unchanged', () => {
   const { container } = render(
-    <Card
+    <ProjectCard
       title="test"
       description="test"
       img="/test"
