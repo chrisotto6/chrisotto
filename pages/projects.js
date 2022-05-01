@@ -29,13 +29,6 @@ export default function Projects() {
                 githubUrl={d.githuburl}
                 projectUrl={d.projecturl}
               />
-              //<Card
-              //  key={d.title}
-              //  title={d.title}
-              //  description={d.description}
-              //  imgSrc={d.imgSrc}
-              //  href={d.href}
-              ///>
             ))}
           </div>
         </div>

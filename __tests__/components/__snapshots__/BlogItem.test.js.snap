@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders blogItem correctly 1`] = `
+<div>
+  <article
+    class="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0"
+  >
+    <span
+      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+    >
+      <span
+        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+      >
+        <img
+          alt=""
+          aria-hidden="true"
+          src="data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 version=%271.1%27 width=%27178%27 height=%27250%27/%3e"
+          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+        />
+      </span>
+      <img
+        alt="test"
+        class="w-full"
+        data-nimg="intrinsic"
+        decoding="async"
+        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+      />
+      <noscript />
+    </span>
+    <div
+      class="space-y-6"
+    >
+      <div
+        class="space-y-5 xl:col-span-3"
+      >
+        <div>
+          <h2
+            class="text-2xl font-bold leading-8 tracking-tight"
+          >
+            <a
+              class="text-gray-900 dark:text-gray-100"
+              href="/blog/slug"
+            >
+              test
+            </a>
+          </h2>
+          <div
+            class="flex flex-wrap"
+          >
+            <a
+              class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              href="/tags/test"
+            >
+              test
+            </a>
+            <a
+              class="mr-3 text-sm font-medium uppercase text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+              href="/tags/another"
+            >
+              another
+            </a>
+          </div>
+          <dl>
+            <dt
+              class="sr-only"
+            >
+              Published on
+            </dt>
+            <dd
+              class="inline-block text-base font-medium leading-6 text-gray-500 dark:text-gray-400"
+            >
+              2 min read
+              <time
+                class="px-6 py-4"
+                datetime="2021-02-19"
+              >
+                February 19, 2021
+              </time>
+            </dd>
+          </dl>
+        </div>
+        <div
+          class="prose max-w-none text-gray-500 dark:text-gray-400"
+        >
+          blah blah blah
+        </div>
+      </div>
+      <div
+        class="text-base font-medium leading-6"
+      >
+        <a
+          aria-label="Read \\"test\\""
+          class="text-primary-500 hover:text-primary-600 dark:hover:text-primary-400"
+          href="/blog/slug"
+        >
+          Read more →
+        </a>
+      </div>
+    </div>
+  </article>
+</div>
+`;
