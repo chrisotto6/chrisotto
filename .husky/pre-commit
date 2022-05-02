@@ -3,4 +3,4 @@
 
 npx --no-install lint-staged
 npm run coverage
-npx playwright test
+#npx playwright test

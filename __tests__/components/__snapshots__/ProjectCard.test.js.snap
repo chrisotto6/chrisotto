@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders card with url unchanged 1`] = `
+exports[`renders ProjectCard correctly 1`] = `
 <div>
   <div
     class="max-w-sm overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50"
@@ -53,7 +53,7 @@ exports[`renders card with url unchanged 1`] = `
       <span
         class="mr-2 mb-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-500 dark:bg-cyan-600 dark:text-gray-100"
       >
-        react
+        graphql
       </span>
     </div>
     <div
@@ -61,7 +61,7 @@ exports[`renders card with url unchanged 1`] = `
     >
       <a
         class="text-sm text-gray-500 transition hover:text-gray-600"
-        href="https://www.google.com"
+        href="www.github.com"
         rel="noopener noreferrer"
         target="_blank"
       >
@@ -76,7 +76,7 @@ exports[`renders card with url unchanged 1`] = `
       </a>
       <a
         class="text-sm text-gray-500 transition hover:text-gray-600"
-        href="https://www.google.com"
+        href="www.google.com"
         rel="noopener noreferrer"
         target="_blank"
       >

@@ -53,7 +53,7 @@ it('renders BlogSEO unchanged', () => {
           fileName: 'default.md',
           name: 'Chris Otto',
           avatar: '/static/images/avatar.jpg',
-          occupation: 'Manager - Test Engineering',
+          occupation: 'Manager Software Engineering',
           company: 'Northwestern Mutual',
           email: 'chris@chrisotto.dev',
           twitter: 'https://twitter.com/chris_otto6',

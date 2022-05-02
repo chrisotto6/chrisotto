@@ -1,15 +1,15 @@
 import { render } from '@testing-library/react'
 import ProjectCard from '@/components/ProjectCard'
 
-it('renders card with url unchanged', () => {
+it('renders ProjectCard correctly', () => {
   const { container } = render(
     <ProjectCard
       title="test"
       description="test"
       img="/test"
-      githubUrl="https://www.google.com"
-      projectUrl="https://www.google.com"
-      tech={['node', 'react']}
+      tech={['node', 'graphql']}
+      githubUrl="www.github.com"
+      projectUrl="www.google.com"
     />
   )
   expect(container).toMatchSnapshot()
