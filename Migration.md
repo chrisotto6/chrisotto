@@ -5,11 +5,8 @@
 - [x] Gut comments components and implementations
 - [x] Other analytics components and implementation
 - [x] Fix the date bug for short date
-      <<<<<<< HEAD
-- [ ] # Check `headerNavLinks.js` to customize navigation links
-- [ ] Check the content security policy in `next.config.js`
+- [x] Check the content security policy in `next.config.js`
 - [x] Check `headerNavLinks.js` to customize navigation links
-  > > > > > > > fe92804905b084a9f1257fd8c5457205f34daddb
 - [x] Remove Discuss on Twitter at the end of posts
 - [x] Fix URL for View on Github at the end of posts
 - [x] Move the date below the post heading in the post view
@@ -31,12 +28,6 @@
 - [ ] Google Analytics
 - [ ] Mailchimp
 - [ ] Vercel Deploy with Netlify depreciation????
-
-## Migrate
-
-- [x] Projects
-- [x] Posts
-- [x] Images
 
 ## Add
 
@@ -61,3 +52,4 @@ Most of these will probably get created into issues after the initial migration
 - [ ] Share buttons in the post footer?
 - [ ] Componentize blog post items
 - [ ] Extract blog post image rendering from the blog itself into the high level renderer/layout
+- [ ] Fix width of project cards

@@ -3,31 +3,29 @@
 exports[`renders blogItem correctly 1`] = `
 <div>
   <article
-    class="space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0"
+    class="display: block gap-6 space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0"
   >
-    <span
-      style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
+    <a
+      class="text-gray-900 dark:text-gray-100"
+      href="/blog/slug"
     >
       <span
-        style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
+        style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative;"
       >
-        <img
-          alt=""
-          aria-hidden="true"
-          src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27178%27%20height=%27250%27/%3e"
-          style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
+        <span
+          style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 55.55555555555556% 0px 0px 0px;"
         />
+        <img
+          alt="test"
+          class="w-full rounded-xl"
+          data-nimg="responsive"
+          decoding="async"
+          src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
+          style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
+        />
+        <noscript />
       </span>
-      <img
-        alt="test"
-        class="w-full"
-        data-nimg="intrinsic"
-        decoding="async"
-        src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7"
-        style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-      />
-      <noscript />
-    </span>
+    </a>
     <div
       class="space-y-6"
     >
@@ -70,13 +68,14 @@ exports[`renders blogItem correctly 1`] = `
             <dd
               class="inline-block text-base font-medium leading-6 text-gray-500 dark:text-gray-400"
             >
-              2 min read
               <time
-                class="px-6 py-4"
                 datetime="2021-02-19"
               >
                 February 19, 2021
               </time>
+              <p>
+                2 min read
+              </p>
             </dd>
           </dl>
         </div>
@@ -87,7 +86,7 @@ exports[`renders blogItem correctly 1`] = `
         </div>
       </div>
       <div
-        class="text-base font-medium leading-6"
+        class="text-base font-medium"
       >
         <a
           aria-label="Read \\"test\\""
