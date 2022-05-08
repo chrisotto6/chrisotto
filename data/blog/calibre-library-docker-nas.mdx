@@ -7,11 +7,16 @@ authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/library.jpg)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="library shelf"
+  src="/static/images/posts/library.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
 Image courteous of [Susan Yin at Unsplash](https://unsplash.com/@syinq).
 
 Calibre is a free ebook manager. It has been around for a while, has an e-book viewer, ability to share your library and a verbose plugin ecosystem. I have used Calibre for a few years on my desktop computer with great results and once I got a NAS I wanted to switch it over there. I'll guide you how to setup the Calibre docker image, if you want to get it setup on a server or machine running linux you can follow the same steps just ignore the Synology NAS specific steps.~~~~

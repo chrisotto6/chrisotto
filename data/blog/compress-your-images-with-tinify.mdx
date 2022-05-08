@@ -7,11 +7,16 @@ authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/picture-frames.jpg)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="picture frames"
+  src="/static/images/posts/picture-frames.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
 Image from @jruscello on [Unsplash](https://unsplash.com/)
 
 Having my blog maintained in source control is awesome. I love having a commit log and be able to have my code and posts in the same spot, they're like roommates. Following the roommate analogy, sometimes your roommate may have some habits you aren't a fan of. For me, it's the images that go along with posts. There's a many to one relationship so considering not only repository size but built times with Gatsby I wanted to implement a utility to help with the situation. A mediary of sorts.

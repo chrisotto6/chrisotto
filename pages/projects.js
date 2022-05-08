@@ -1,6 +1,5 @@
 import siteMetadata from '@/data/siteMetadata'
 import projectsData from '@/data/projectsData'
-import Card from '@/components/Card'
 import { PageSEO } from '@/components/SEO'
 import ProjectCard from '@/components/ProjectCard'
 
@@ -18,24 +17,18 @@ export default function Projects() {
           </p>
         </div>
         <div className="container py-12">
-          <div className="-m-4 flex flex-wrap place-content-center gap-8">
+          <div className="-m-4 flex flex-wrap place-content-center gap-16">
             {projectsData.map((d) => (
               <ProjectCard
-                key={d.title}
+                key={d}
                 title={d.title}
                 description={d.description}
                 img={d.img}
                 tech={d.tech}
                 githubUrl={d.githuburl}
                 projectUrl={d.projecturl}
+                dataTestid={`project-card`}
               />
-              //<Card
-              //  key={d.title}
-              //  title={d.title}
-              //  description={d.description}
-              //  imgSrc={d.imgSrc}
-              //  href={d.href}
-              ///>
             ))}
           </div>
         </div>

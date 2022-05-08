@@ -99,7 +99,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                     <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                       Tags
                     </h2>
-                    <div className="flex flex-wrap">
+                    <div className="flex flex-wrap" data-testid="post-tags-container">
                       {tags.map((tag) => (
                         <Tag key={tag} text={tag} />
                       ))}
@@ -109,7 +109,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 {(next || prev) && (
                   <div className="flex justify-between py-4 xl:block xl:space-y-8 xl:py-8">
                     {prev && (
-                      <div>
+                      <div data-testid="previous-article">
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Previous Article
                         </h2>
@@ -119,7 +119,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                       </div>
                     )}
                     {next && (
-                      <div>
+                      <div data-testid="next-article">
                         <h2 className="text-xs uppercase tracking-wide text-gray-500 dark:text-gray-400">
                           Next Article
                         </h2>
