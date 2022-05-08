@@ -3,7 +3,7 @@ import SocialIcon from '@/components/social-icons'
 
 const ProjectCard = ({ title, description, img, githubUrl, projectUrl, tech, dataTestid }) => (
   <div
-    className="max-w-sm overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50"
+    className="max-w-xs overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50"
     data-testid={dataTestid}
   >
     <Image className="w-full" alt={title} src={img} width={544} height={306} />

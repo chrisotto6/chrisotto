@@ -7,11 +7,16 @@ authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/shipyard.jpg)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="shipyard"
+  src="/static/images/posts/shipyard.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
 Image courteous of [Pixabay](https://pixabay.com/).
 
 Portainer is an application that makes it easy for you to manage docker containers that you have running on your system. It is a great tool to add to any NAS running containers or homeserver doing the same. It can also be used for Kubernetes management if that is something you have running or are interested. Some of the features I like:

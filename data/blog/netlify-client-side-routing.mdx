@@ -7,12 +7,15 @@ authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/backlit-computer.jpg)
-  </div>
-</div>
 
+<Image
+  className="w-full rounded-xl"
+  alt="backlit computer"
+  src="/static/images/posts/backlit-computer.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
 
 I have a nice little [side project](https://library.chrisotto.dev/) based on the Goodreads API (yes, my key is still active). I had it up for a while and whenever I would refresh a page while it was deployed it would lose context to the page. This is because Netlify didn't know how to handle the state I had gotten myself into because the routing in `create-react-app` that I was using was `react-router`.
 

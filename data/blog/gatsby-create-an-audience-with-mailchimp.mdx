@@ -1,17 +1,22 @@
 ---
 title: Gatsby - Create an audience with Mailchimp
-tags: ['gatsby','react','mailchimp']
+tags: ['gatsby', 'react', 'mailchimp']
 date: '2020-05-21'
 images: ['/static/images/posts/mail.jpg', '/static/images/posts/finished_form.png']
 authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/mail.jpg)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="mailbox"
+  src="/static/images/posts/mail.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
 Image from @mathyaskurmann on [Unsplash](https://unsplash.com/)
 
 Allowing people to get updates from your blog is a great way to create and engage with your audience. I wanted to create a subscribe component to my blog. Yes, this can be accomplished with RSS feeds but I thought it would nice to add a new UI component and integrate with a service. I chose Mailchimp to allow visitors to subscribe to my blog! The best part is that there is already a Gatsby plugin that handles the heavy lifting.
@@ -148,4 +153,3 @@ Time to enjoy the finished product.
 </div>
 
 From here you may want to do some testing to make sure that everything is working. Try adding yourself or a friend to your audience. Mailchimp offers automated e-mails from RSS feeds, stand-alone e-mails and other ways for you to engage with your newly created audience. Happy trails!
-

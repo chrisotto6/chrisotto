@@ -1,17 +1,21 @@
 ---
 title: Gatsby - Switching from Markdown to MDX
-tags: ['gatsby','react']
+tags: ['gatsby', 'react']
 date: '2020-02-08'
 images: ['/static/images/posts/gatsby-mdx.png']
 authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/gatsby-mdx.png)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="Gatsby MDX"
+  src="/static/images/posts/gatsby-mdx.png"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
 
 I recently rewrote my old Wordpress site hosted through GoDaddy to a [Gatsby](https://www.gatsbyjs.org/) site hosted
 with [Netlify](https://www.netlify.com/). Originally I tried hand-rolling my site but it was taking way too long to get everything I wanted
@@ -99,10 +103,12 @@ Change the props for the component to use `body` instead of `html`
 Use the `MDXRenderer` component to render the result to the page.
 
 ```js
--      <div className="bodytext" dangerouslySetInnerHTML={{ __html: html }} />
-+      <div className="bodytext">
-+        <MDXRenderer>{body}</MDXRenderer>
-+      </div>
+;-(<div className="bodytext" dangerouslySetInnerHTML={{ __html: html }} />) +
+(
+  <div className="bodytext">
+    + <MDXRenderer>{body}</MDXRenderer>+{' '}
+  </div>
+)
 ```
 
 Change the propTypes for the component from `html` to `body`.

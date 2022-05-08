@@ -17,7 +17,7 @@ export default function Projects() {
           </p>
         </div>
         <div className="container py-12">
-          <div className="-m-4 flex flex-wrap place-content-center gap-8">
+          <div className="-m-4 flex flex-wrap place-content-center gap-16">
             {projectsData.map((d) => (
               <ProjectCard
                 key={d}

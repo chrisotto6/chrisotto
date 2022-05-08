@@ -3,7 +3,7 @@
 exports[`renders ProjectCard correctly 1`] = `
 <div>
   <div
-    class="max-w-sm overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50"
+    class="max-w-xs overflow-hidden rounded-xl shadow-lg dark:bg-gray-600 dark:shadow-cyan-600/50"
   >
     <span
       style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"

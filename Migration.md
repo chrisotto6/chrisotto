@@ -52,4 +52,4 @@ Most of these will probably get created into issues after the initial migration
 - [ ] Share buttons in the post footer?
 - [ ] Componentize blog post items
 - [ ] Extract blog post image rendering from the blog itself into the high level renderer/layout
-- [ ] Fix width of project cards
+- [x] Fix width of project cards

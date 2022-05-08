@@ -7,11 +7,15 @@ tags: ['react', 'typescript']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![React Logo](/static/images/posts/react-logo.png)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="react logo"
+  src="/static/images/posts/react-logo.png"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
 
 This week I was going through the React [tutorial](https://reactjs.org/tutorial/tutorial.html). While going through each phase of the tutorial; going over state, JSX and React Components I wanted to be writing it in Typescript. I'll go through the tutorial code of what I had to change in order to get it working.
 

@@ -7,11 +7,16 @@ authors: ['default']
 draft: false
 canonicalUrl: https://www.google.com
 ---
-<div className="flex flex-wrap -mx-2 overflow-hidden xl:-mx-2">
-  <div className="my-1 px-2 w-full overflow-hidden xl:my-1 xl:px-2 xl:w-1/2">
-    ![Gatsby MDX](/static/images/posts/pink-computer.jpg)
-  </div>
-</div>
+
+<Image
+  className="w-full rounded-xl"
+  alt="pink computer"
+  src="/static/images/posts/pink-computer.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
+
 Image from [Free Illustrations](https://freellustrations.com/).
 
 Create-React-App gives a nice bootstrapped project. I like being able to lint outside of the build or run process of the application, like on pre-commit hooks with husky. To do that I needed to add linting to my create-react-app. Follow these steps to add linting to your create-react-app project and get linting outside of your build process.
