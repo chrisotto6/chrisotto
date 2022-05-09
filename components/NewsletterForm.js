@@ -1,7 +1,5 @@
 import { useRef, useState } from 'react'
 
-import siteMetadata from '@/data/siteMetadata'
-
 const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
   const inputEl = useRef(null)
   const [error, setError] = useState(false)
@@ -11,7 +9,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
   const subscribe = async (e) => {
     e.preventDefault()
 
-    const res = await fetch(`/api/${siteMetadata.newsletter.provider}`, {
+    const res = await fetch('/api/mailchimp', {
       body: JSON.stringify({
         email: inputEl.current.value,
       }),

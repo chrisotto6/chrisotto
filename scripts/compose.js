@@ -49,6 +49,21 @@ const genFrontMatter = (answers) => {
 
   frontMatter = frontMatter + '\n---'
 
+  frontMatter =
+    frontMatter +
+    `
+    \n<Image
+      \n\tclassName="w-full rounded-xl"
+      \n\talt="library shelf"
+      \n\tsrc="/static/images/posts/library.jpg"
+      \n\tlayout="responsive"
+      \n\twidth={450}
+      \n\theight={250}
+    \n/>
+
+    \n\n<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+  `
+
   return frontMatter
 }
 
