@@ -17,24 +17,25 @@
 - [ ] Logo
 - [ ] Favicons
 - [ ] SocialBanner
-- [ ] TOC Component to applicable posts `<TOCInline toc={props.toc} asDisclosure toHeading={3} />`
+- [x] TOC Component to applicable posts `<TOCInline toc={props.toc} asDisclosure toHeading={3} />`
 - [x] Remove Theme reference in footer
 - [ ] Fix formatting of footer on mobile
 - [x] Matter API for getting the summary of the post dynamically to render it in the BlogItem component
-- [ ] Spacing for tailwind grid for formatting of BlogItem component, right now it's too smooshed with the image
+- [x] Spacing for tailwind grid for formatting of BlogItem component, right now it's too smooshed with the image
 
 ## Setup
 
-- [ ] Google Analytics
-- [ ] Mailchimp
+- [x] Google Analytics
+- [x] Mailchimp
+- [x] Sentry
 - [ ] Vercel Deploy with Netlify depreciation????
 
 ## Add
 
 Most of these will probably get created into issues after the initial migration
 
-- [ ] A whole bunch of testsssssss - unit/jest snapshot
-- [ ] Uses - Add page to nav bar
+- [x] A whole bunch of testsssssss - unit/jest snapshot
+- [x] Uses - Add page to nav bar
 - [ ] Folders for posts/post images based on year??
 - [ ] Redo the way posts show up on landing/all posts page (card)
 - [ ] Personalize the background (dark/light mode)
@@ -43,13 +44,11 @@ Most of these will probably get created into issues after the initial migration
   - [ ] Move up email form?
   - [ ] Theme colors
   - [ ] Background colors
-- [ ] Crypress? Playwright?
+- [x] Crypress? Playwright?
 - [ ] Snippets page?
 - [ ] About page resume
 - [x] Reading Time
-- [ ] Contact form?
 - [ ] APIs?!?
-- [ ] Share buttons in the post footer?
-- [ ] Componentize blog post items
-- [ ] Extract blog post image rendering from the blog itself into the high level renderer/layout
+- [x] Componentize blog post items
+- [x] Extract blog post image rendering from the blog itself into the high level renderer/layout
 - [x] Fix width of project cards
