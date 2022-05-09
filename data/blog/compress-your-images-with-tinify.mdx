@@ -17,6 +17,8 @@ canonicalUrl: https://www.google.com
   height={250}
 />
 
+<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+
 Image from @jruscello on [Unsplash](https://unsplash.com/)
 
 Having my blog maintained in source control is awesome. I love having a commit log and be able to have my code and posts in the same spot, they're like roommates. Following the roommate analogy, sometimes your roommate may have some habits you aren't a fan of. For me, it's the images that go along with posts. There's a many to one relationship so considering not only repository size but built times with Gatsby I wanted to implement a utility to help with the situation. A mediary of sorts.

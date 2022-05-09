@@ -12,7 +12,7 @@ exports[`renders TOCInline with asDisclosure 1`] = `
     open=""
   >
     <summary
-      class="ml-6 pt-2 pb-2 text-xl font-bold"
+      class="text-l ml-6 pt-2 pb-2 font-bold"
     >
       Table of Contents
     </summary>

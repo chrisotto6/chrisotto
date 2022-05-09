@@ -1,8 +1,7 @@
 const projectsData = [
   {
     name: 'VSCode FitNesse',
-    description:
-      'Formats, runs tests and provides syntax highlighting for FitNesse tests in VS Code.',
+    description: 'Formats, runs and highlights FitNesse tests in VS Code.',
     img: '/static/images/projects/vscodefitnesse.png',
     tech: ['Typescript', 'Node'],
     githuburl: 'https://github.com/chrisotto6/VSCodeFitNesse',
@@ -12,7 +11,7 @@ const projectsData = [
     name: 'Personal Website',
     description: 'Personal site showcasing my blog, projects and online resume.',
     img: '/static/images/projects/chrisottodev.png',
-    tech: ['Gatsby', 'React', 'GraphQL', 'Node'],
+    tech: ['React', 'GraphQL', 'Node'],
     githuburl: 'https://github.com/chrisotto6/chrisottodev',
     projecturl: 'https://chrisotto.dev/',
   },

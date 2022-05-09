@@ -17,6 +17,8 @@ canonicalUrl: https://www.google.com
   height={250}
 />
 
+<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+
 ## Change Feature File to Generate the `~.feature.cs` at Compile Time
 
 Whenever a new Specflow file is created in the solution it is automatically created with the SpecFlowSingleFileGenerator specification in the Custom Tool attribute. This file generator creates the background file on save instead of during the build
