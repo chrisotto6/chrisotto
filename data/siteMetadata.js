@@ -18,7 +18,7 @@ const siteMetadata = {
   linkedin: 'https://www.linkedin.com/in/ottochristopher/',
   locale: 'en-US',
   analytics: {
-    googleAnalyticsId: '', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-9LHN1C72K7', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     provider: 'mailchimp',
