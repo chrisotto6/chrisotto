@@ -13,7 +13,7 @@ const projectsData = [
     img: '/static/images/projects/chrisottodev.png',
     tech: ['React', 'GraphQL', 'Node'],
     githuburl: 'https://github.com/chrisotto6/chrisottodev',
-    projecturl: 'https://chrisotto.dev/',
+    projecturl: 'https://gatsby-otto.netlify.app/',
   },
   {
     name: 'Library',
