@@ -4,7 +4,10 @@ import Tag from '@/components/Tag'
 import formatDate from '@/lib/utils/formatDate'
 
 const BlogItem = ({ slug, date, title, summary, tags, image, readingTime }) => (
-  <article className="display: block gap-6 space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0">
+  <article
+    className="display: block gap-6 space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0"
+    data-testid="list-blog-item"
+  >
     <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
       <Image
         className="w-full rounded-xl"
@@ -23,7 +26,7 @@ const BlogItem = ({ slug, date, title, summary, tags, image, readingTime }) => (
               {title}
             </Link>
           </h2>
-          <div className="flex flex-wrap">
+          <div className="flex flex-wrap" data-testid="tag-container">
             {tags.map((tag) => (
               <Tag key={tag} text={tag} />
             ))}

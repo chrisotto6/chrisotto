@@ -5,13 +5,19 @@ name: Node.js CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
+
+env:
+  MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
+  MAILCHIMP_API_SERVER: ${{ secrets.MAILCHIMP_API_SERVER }}
+  MAILCHIMP_AUDIENCE_ID: ${{ secrets.MAILCHIMP_AUDIENCE_ID }}
+  SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
+  SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
@@ -20,14 +26,13 @@ jobs:
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    - run: npm run lint
-    - run: npm run coverage
-    - run: npm run build --if-present
-
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint
+      - run: npm run coverage
+      - run: npm run build --if-present

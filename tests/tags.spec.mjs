@@ -6,7 +6,9 @@ test('should navigate to the tags page and select a tag', async ({ page }) => {
 
   // Save off the first tag, tag count and formatted tag name for tag page
   const tagName = (await page.locator('data-testid=tag >> nth=0').textContent()).split(' ')[0]
-  const tagCount = (await page.locator('data-testid=tag >> nth=0').textContent()).split(' ')[1].charAt(1)
+  const tagCount = (await page.locator('data-testid=tag >> nth=0').textContent())
+    .split(' ')[1]
+    .charAt(1)
   const formattedTag = tagName.charAt(0).toUpperCase() + tagName.slice(1)
 
   // Navigate to all articles that have the tag
