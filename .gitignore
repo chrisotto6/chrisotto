@@ -36,3 +36,6 @@ yarn-error.log*
 .env.production.local
 test-results/
 playwright-report/
+
+# Sentry
+.sentryclirc
