@@ -1,8 +1,8 @@
 ---
 name: Chris Otto
 avatar: /static/images/avatar.jpg
-occupation: Manager Software Engineering
-company: Northwestern Mutual
+occupation: Senior SDET
+company: Flow
 email: chris@chrisotto.dev
 twitter: https://twitter.com/chris_otto6
 linkedin: https://www.linkedin.com/in/ottochristopher/
