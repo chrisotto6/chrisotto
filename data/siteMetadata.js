@@ -2,7 +2,7 @@ const siteMetadata = {
   title: 'Chris Otto | Father, Developer, Test Engineer',
   author: 'Chris Otto',
   headerTitle: 'Chris Otto',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: "Chris Otto's Digital Garden.",
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://chrisotto.vercel.app/',
