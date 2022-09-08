@@ -88,7 +88,7 @@ exports[`renders Footer unchanged 1`] = `
         <a
           href="/"
         >
-          Chris Otto | Father, Developer, Test Engineer
+          Chris Otto | Father, Developer, SDET
         </a>
       </div>
     </div>
