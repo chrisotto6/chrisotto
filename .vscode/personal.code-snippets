@@ -31,10 +31,14 @@
 		"scope": "javascript",
 		"prefix": "work",
 		"body": ["{\n\tcompany: '${1}',",
-			"\ttitle: '${2}',",
-			"\tmonthYearStart: '${3}',",
-			"\tmonthYearEnd: '${4}',",
-			"\tjobDescription: [${0}],",
+			"\trole: [",
+			"\t\t{",
+			"\t\t\ttitle: '${2}',",
+			"\t\t\tmonthYearStart: '${3}',",
+			"\t\t\tmonthYearEnd: '${4}',",
+			"\t\t\tjobDescription: ['${0}',],",
+			"\t\t},",
+			"\t],",
 		"},"],
 		"description": "Snippet for creating a new work data object"
 	}
