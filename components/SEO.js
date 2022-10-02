@@ -16,7 +16,7 @@ export const CommonSEO = ({ title, description, ogType, ogImage, twImage, canoni
       <meta property="og:description" content={description} />
       <meta property="og:title" content={title} />
       {ogImage.constructor.name === 'Array' ? (
-        ogImage.map(({ url }) => <meta property="og:image" content={url} key={url} />)
+        ogImage.map(({ url }) => <meta key={url} property="og:image" content={url} />)
       ) : (
         <meta property="og:image" content={ogImage} key={ogImage} />
       )}

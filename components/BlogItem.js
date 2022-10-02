@@ -6,7 +6,8 @@ import formatDate from '@/lib/utils/formatDate'
 const BlogItem = ({ slug, date, title, summary, tags, image, readingTime }) => (
   <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
     <article
-      className="display: block gap-6 space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0"
+      // prettier-ignore
+      className="display:block w-full gap-6 space-y-2 rounded-xl xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0 hover:bg-sky-700/40"
       data-testid="list-blog-item"
     >
       <Image

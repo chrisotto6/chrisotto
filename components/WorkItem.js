@@ -1,6 +1,8 @@
+import kebabCase from '@/lib/utils/kebabCase'
+
 const WorkItem = ({ company, role }) => {
   return (
-    <div data-testid={`job-${company.toLowerCase()}`}>
+    <div data-testid={`job-${kebabCase(company)}`}>
       <h3>{company}</h3>
       {role.map((role) => (
         <div key={role.title}>

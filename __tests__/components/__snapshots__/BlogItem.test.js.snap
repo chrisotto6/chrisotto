@@ -7,7 +7,7 @@ exports[`renders blogItem correctly 1`] = `
     href="/blog/slug"
   >
     <article
-      class="display: block gap-6 space-y-2 xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0"
+      class="display:block w-full gap-6 space-y-2 rounded-xl xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0 hover:bg-sky-700/40"
       data-testid="list-blog-item"
     >
       <span
