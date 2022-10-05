@@ -15,7 +15,9 @@ exports[`renders WorkItem correctly 1`] = `
       <span>
         Aug 2022 - Current
       </span>
-      <ul>
+      <ul
+        class="list-outside leading-snug"
+      >
         <li>
           I did this
         </li>

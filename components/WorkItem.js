@@ -8,7 +8,7 @@ const WorkItem = ({ company, role }) => {
         <div key={role.title}>
           <h4>{role.title}</h4>
           <span>{`${role.monthYearStart} - ${role.monthYearEnd}`}</span>
-          <ul>
+          <ul className="list-outside leading-snug">
             {role.jobDescription.map((desc) => (
               <li key={desc}>{desc}</li>
             ))}
