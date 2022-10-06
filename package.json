@@ -11,7 +11,9 @@
     "lint": "next lint --fix --dir pages --dir components --dir lib --dir layouts --dir scripts",
     "prepare": "husky install",
     "test": "jest --watch",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "compose": "node scripts/compose.js",
+    "sitemap": "node scripts/generate-sitemap.js"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",

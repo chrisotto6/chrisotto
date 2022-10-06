@@ -30,38 +30,33 @@ const genFrontMatter = (answers) => {
   const tagArray = answers.tags.split(',')
   tagArray.forEach((tag, index) => (tagArray[index] = tag.trim()))
   const tags = "'" + tagArray.join("','") + "'"
-  const authorArray = answers.authors.length > 0 ? "'" + answers.authors.join("','") + "'" : ''
 
   let frontMatter = dedent`---
   title: ${answers.title ? answers.title : 'Untitled'}
   date: '${date}'
   tags: [${answers.tags ? tags : ''}]
   draft: ${answers.draft === 'yes' ? true : false}
-  summary: ${answers.summary ? answers.summary : ' '}
   images: []
+  authors: ['${answers.authors}']
   layout: ${answers.layout}
   canonicalUrl: ${answers.canonicalUrl}
   `
-
-  if (answers.authors.length > 0) {
-    frontMatter = frontMatter + '\n' + `authors: [${authorArray}]`
-  }
 
   frontMatter = frontMatter + '\n---'
 
   frontMatter =
     frontMatter +
     `
-    \n<Image
-      \n\tclassName="w-full rounded-xl"
-      \n\talt="library shelf"
-      \n\tsrc="/static/images/posts/library.jpg"
-      \n\tlayout="responsive"
-      \n\twidth={450}
-      \n\theight={250}
-    \n/>
+\n<Image
+  className="w-full rounded-xl"
+  alt="library shelf"
+  src="/static/images/posts/library.jpg"
+  layout="responsive"
+  width={450}
+  height={250}
+/>
 
-    \n\n<TOCInline toc={props.toc} asDisclosure toHeading={3} />
+\n<TOCInline toc={props.toc} asDisclosure toHeading={3} />
   `
 
   return frontMatter
@@ -85,11 +80,6 @@ inquirer
       message: 'Choose authors:',
       type: 'checkbox',
       choices: getAuthors,
-    },
-    {
-      name: 'summary',
-      message: 'Enter post summary:',
-      type: 'input',
     },
     {
       name: 'draft',

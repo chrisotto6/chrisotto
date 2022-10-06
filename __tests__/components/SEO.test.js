@@ -50,7 +50,7 @@ it('renders BlogSEO unchanged', () => {
         {
           readingTime: { text: '1 min read', minutes: 0.18, time: 10800, words: 36 },
           slug: ['default'],
-          fileName: 'default.md',
+          fileName: 'chris.md',
           name: 'Chris Otto',
           avatar: '/static/images/avatar.jpg',
           occupation: 'Manager Software Engineering',

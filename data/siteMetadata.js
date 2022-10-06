@@ -1,11 +1,11 @@
 const siteMetadata = {
-  title: 'Chris Otto | Father, Developer, Test Engineer',
+  title: 'Chris Otto | Father, Developer, SDET',
   author: 'Chris Otto',
   headerTitle: 'Chris Otto',
   description: "Chris Otto's Digital Garden.",
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://chrisotto.vercel.app/',
+  siteUrl: 'https://www.chrisotto.dev',
   siteRepo: 'https://github.com/chrisotto6/chrisotto',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',

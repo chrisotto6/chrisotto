@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders SchoolItem correctly 1`] = `
+<div>
+  <div
+    data-testid="school-"
+  >
+    <h3 />
+    <h4>
+      Bachelors of Science - Computer Science
+    </h4>
+    <h5>
+      3.9 - Summa Cum Lade
+    </h5>
+  </div>
+</div>
+`;

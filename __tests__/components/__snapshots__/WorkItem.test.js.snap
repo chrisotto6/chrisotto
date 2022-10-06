@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders WorkItem correctly 1`] = `
+<div>
+  <div
+    data-testid="job-test-llc"
+  >
+    <h3>
+      Test LLC
+    </h3>
+    <div>
+      <h4>
+        Senior Coder
+      </h4>
+      <span>
+        Aug 2022 - Current
+      </span>
+      <ul
+        class="list-outside leading-snug"
+      >
+        <li>
+          I did this
+        </li>
+        <li>
+          And this
+        </li>
+        <li>
+          And then lastly this
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
