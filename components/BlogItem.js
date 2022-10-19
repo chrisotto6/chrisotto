@@ -7,7 +7,7 @@ const BlogItem = ({ slug, date, title, summary, tags, image, readingTime }) => (
   <Link href={`/blog/${slug}`} className="text-gray-900 dark:text-gray-100">
     <article
       // prettier-ignore
-      className="display:block w-full gap-6 space-y-2 rounded-xl xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0 hover:bg-sky-700/40"
+      className="display:block w-full gap-6 space-y-2 rounded-xl xl:grid xl:grid-cols-2 xl:items-baseline xl:space-y-0 dark:hover:bg-sky-700/40 hover:bg-gray-100"
       data-testid="list-blog-item"
     >
       <Image
