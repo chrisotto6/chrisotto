@@ -51,7 +51,6 @@ const genFrontMatter = (answers) => {
   className="w-full rounded-xl"
   alt="library shelf"
   src="/static/images/posts/library.jpg"
-  layout="responsive"
   width={450}
   height={250}
 />
