@@ -1,3 +1,5 @@
+'use client'
+
 import { useState } from 'react'
 import Pagination from '@/components/Pagination'
 import BlogItem from '@/components/BlogItem'

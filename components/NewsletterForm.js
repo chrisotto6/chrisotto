@@ -1,3 +1,5 @@
+'use client'
+
 import { useRef, useState } from 'react'
 
 const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
