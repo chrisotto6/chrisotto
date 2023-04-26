@@ -1,5 +1,6 @@
 import Image from './Image'
-import SocialIcon from '@/components/social-icons'
+import Link from 'next/link'
+import { FaGithub, FaExternalLinkSquareAlt } from 'react-icons/fa'
 
 const ProjectCard = ({ title, description, img, githubUrl, projectUrl, tech, dataTestid }) => (
   <div
@@ -22,8 +23,12 @@ const ProjectCard = ({ title, description, img, githubUrl, projectUrl, tech, dat
       ))}
     </div>
     <div className="mb-3 flex space-x-4 px-6 pt-3 pb-3">
-      <SocialIcon kind="github" href={githubUrl} size="6" />
-      <SocialIcon kind="external_link" href={projectUrl} size="6" />
+      <Link href={githubUrl}>
+        <FaGithub size={30} />
+      </Link>
+      <Link href={projectUrl}>
+        <FaExternalLinkSquareAlt size={30} />
+      </Link>
     </div>
   </div>
 )

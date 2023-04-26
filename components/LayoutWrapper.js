@@ -1,7 +1,7 @@
 import siteMetadata from '@/data/siteMetadata'
 import headerNavLinks from '@/data/headerNavLinks'
 import Logo from '@/data/logo.svg'
-import Link from './Link'
+import Link from 'next/link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
 import MobileNav from './MobileNav'
@@ -34,7 +34,7 @@ const LayoutWrapper = ({ children }) => {
                 <Link
                   key={link.title}
                   href={link.href}
-                  className="p-1 font-medium text-gray-900 dark:text-gray-100 sm:p-4"
+                  className="p-1 font-medium text-gray-900 hover:text-primary-600 dark:text-gray-100 dark:hover:text-primary-400 sm:p-4"
                 >
                   {link.title}
                 </Link>
