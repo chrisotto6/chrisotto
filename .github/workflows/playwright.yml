@@ -1,15 +1,18 @@
 name: Playwright Tests
+
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+
 env:
   MAILCHIMP_API_KEY: ${{ secrets.MAILCHIMP_API_KEY }}
   MAILCHIMP_API_SERVER: ${{ secrets.MAILCHIMP_API_SERVER }}
   MAILCHIMP_AUDIENCE_ID: ${{ secrets.MAILCHIMP_AUDIENCE_ID }}
   SENTRY_AUTH_TOKEN: ${{ secrets.SENTRY_AUTH_TOKEN }}
   SENTRY_DSN: ${{ secrets.SENTRY_DSN }}
+
 jobs:
   test:
     timeout-minutes: 60
@@ -18,7 +21,7 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
         with:
-          node-version: '16.x'
+          node-version: '18.12.1'
       - name: Install dependencies
         run: npm ci
       - name: Install Playwright

@@ -4,10 +4,11 @@ import workData from '@/data/workData'
 import SchoolItem from '@/components/SchoolItem'
 import VolunteerItem from '@/components/VolunteerItem'
 import WorkItem from '@/components/WorkItem'
-import { title } from '@/data/siteMetadata'
 
 const Resume = () => {
   return (
+    // Button Nav -> Anchors
+    // Skills Section
     <article>
       <h2>Experience</h2>
       {workData.map((job) => (

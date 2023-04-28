@@ -1,5 +1,6 @@
 const siteMetadata = {
   title: 'Chris Otto | Father, Developer, SDET',
+  footer: 'Chris Otto',
   author: 'Chris Otto',
   headerTitle: 'Chris Otto',
   description: "Chris Otto's Digital Garden.",
